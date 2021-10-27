@@ -1,10 +1,10 @@
 const userSorter = require('../utils/userSorter')
 
 const users = [
+  { name: 'Naomi', score: 35, id: 4 },
   { name: 'Alex', score: 32, id: 1 },
-  { name: 'Matt', score: 21, id: 2 },
   { name: 'Nina', score: 24, id: 3 },
-  { name: 'Naomi', score: 35, id: 4 }
+  { name: 'Matt', score: 21, id: 2 }
 ]
 
 module.exports = {
